@@ -4,7 +4,7 @@ Feature: Login Functionality test
   @SmokeTest @UITest
   Scenario: Valid user login
     Given user navigated to login page of orange portal
-    When user enters username as "Admin" and password as "Feature1 Code"
+    When user enters username as "Admin" and password as "Feature 2 code"
     Then user should be redirected to the dashboard page
 
     @SanityTest @Regression @Integration @AGE-535
