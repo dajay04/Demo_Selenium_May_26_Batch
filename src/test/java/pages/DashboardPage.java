@@ -18,6 +18,8 @@ public class DashboardPage {
     //method
     public boolean isDashboardFieldVisibile()
     {
+        System.out.println("Dashbord field viisble");
         return driver.findElement(dashboardField).isDisplayed();
+
     }
 }
